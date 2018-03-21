@@ -60,7 +60,7 @@ const commands = {
         'text': `$ <b>funfact</b> 
         <br>> Did you know that you can destroy your Linux PC simply by typing 'sudo mv ~ /dev/null' in console? Try it out!`
     },
-    'hui': {
+    'n.i.c.e.s.i.t.e': {
         'text': `
         ...N.I.C.E.S.I.T.E...<br>
         .........._..........<br>
