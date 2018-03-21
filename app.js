@@ -7,13 +7,13 @@ const commands = {
         &nbsp;- about<br>
         &nbsp;- projects<br>
         &nbsp;- contacts<br>
-        &nbsp;- go to hell`
+        &nbsp;- funfact`
     },
     'about': {
         'text': `$ <b>about</b> <br>
         >&nbsp;Hello!<br>
         &nbsp;My name is Nikita and I'm a backend developer. <br>
-        &nbsp;This simple CLI-like resume will guide you through projects I've made and tell you a bit about my experience. <br>
+        &nbsp;This simple CLI-like resume will guide you through projects I've made and will tell you a bit about my experience. <br>
         &nbsp;My main skills are: <br>
         &nbsp;- Javascript <br>
         &nbsp;- Node.js    <br>
@@ -23,10 +23,10 @@ const commands = {
         &nbsp;- Vue        <br>
         &nbsp;- Python     <br>
         &nbsp;- PHP(LAMP)  <br>
-        &nbsp;- Watching funny cat videos in office <br>
+        &nbsp;- Watching funny cat videos in the office <br>
         <br>
         &nbsp;You can find list of all available commands by typing "help" in console. <br>
-        &nbsp;Written by @sylenien, 2018.`
+        &nbsp;This thing is written by <a href='https://github.com/sylenien'>@sylenien</a>, 2018.`
     },
     'projects': {
         'text': `$ <b>projects</b> <br>
@@ -55,6 +55,29 @@ const commands = {
     },
     'error': {
         'text': '<br>>&nbsp;lost? Try writing "help" in console.'
+    },
+    'funfact': {
+        'text': `$ <b>funfact</b> 
+        <br>> Did you know that you can destroy your Linux PC simply by typing 'sudo mv ~ /dev/null' in console? Try it out!`
+    },
+    'hui': {
+        'text': `
+        ...N.I.C.E.S.I.T.E...<br>
+        .........._..........<br>
+        ........./\\).._......<br>
+        ...._.../ /..(/\\.....<br>
+        .../\\).( Y)...\\ \\....<br>
+        ../ /....""...(Y ),,,<br>
+        .( Y)._........"".... <br>
+        .."".(/\\......_......<br>
+        ......\\ \\..../\\).....<br>
+        ......(Y )../ /......<br>
+        .......""..( Y)...... <br>
+        ............""....... <br>
+        .......L.I.K.E.......<br>
+        ..........&..........<br>
+        ..S.U.B.S.C.R.I.B.E..
+        `
     }
 } 
 const $ = (cn) => {

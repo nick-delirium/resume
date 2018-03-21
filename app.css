@@ -1,4 +1,4 @@
-body {
+body, select, input, textarea {
     background-color: black;
     font-family: Monospace;
     font-size: 17px;
