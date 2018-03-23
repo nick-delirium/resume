@@ -15,14 +15,15 @@ const commands = {
         &nbsp;My name is Nikita and I'm a backend developer. <br>
         &nbsp;This simple CLI-like resume will guide you through projects I've made and will tell you a bit about my experience. <br>
         &nbsp;My main skills are: <br>
-        &nbsp;- Javascript <br>
-        &nbsp;- Node.js    <br>
-        &nbsp;- Express    <br>
-        &nbsp;- Koa2       <br>
-        &nbsp;- jQuery     <br>
-        &nbsp;- Vue        <br>
-        &nbsp;- Python     <br>
-        &nbsp;- PHP(LAMP)  <br>
+        &nbsp;- Javascript+Flow <br>
+        &nbsp;- Node.js         <br>
+        &nbsp;- Vue             <br>
+        &nbsp;- Express         <br>
+        &nbsp;- HTML/CSS/LESS   <br>
+        &nbsp;- Koa2            <br>
+        &nbsp;- jQuery          <br>
+        &nbsp;- Python          <br>
+        &nbsp;- PHP(LAMP)       <br>
         &nbsp;- Watching funny cat videos in the office <br>
         <br>
         &nbsp;You can find list of all available commands by typing "help" in console. <br>
