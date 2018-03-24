@@ -105,8 +105,7 @@ const commands = {
     }
 } 
 const $ = (cn) => {
-    item = document.getElementById(cn);
-    return item;
+    return document.getElementById(cn);
 }
 
 const handle = (e) => {
