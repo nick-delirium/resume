@@ -12,8 +12,11 @@ const commands = {
     'about': {
         'text': `$ <b>about</b> <br>
         >&nbsp;Hello!<br>
+        <br>
         &nbsp;My name is Nikita and I'm a backend developer. <br>
-        &nbsp;This simple CLI-like resume will guide you through projects I've made and will tell you a bit about my experience. <br>
+        &nbsp;This simple CLI-like resume will guide you through projects I've made<br>
+        &nbsp;and will tell you a bit about my experience. <br>
+        <br>
         &nbsp;My main skills are: <br>
         &nbsp;- Javascript+Flow <br>
         &nbsp;- Node.js         <br>
@@ -27,27 +30,42 @@ const commands = {
         &nbsp;- Watching funny cat videos in the office <br>
         <br>
         &nbsp;You can find list of all available commands by typing "help" in console. <br>
-        &nbsp;This thing is written by <a href='https://github.com/sylenien'>@sylenien</a>, 2018.`
+        &nbsp;This thing is written without any JS libs with just pure javascript<br>
+        &nbsp;by <a href='https://github.com/sylenien'>@sylenien</a>, 2018.`
     },
     'projects': {
         'text': `$ <b>projects</b> <br>
-        >&nbsp;Here lies list of work and pet projects I made. <br>
-        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ <br>
+        >&nbsp;Here lies list of my work experience and pet projects I made. <br>
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ <br>
         &nbsp;&nbsp;Corporative/work projects: <br>
         <br>
         - Hubcoin: <br>
-        &nbsp;&nbsp;position: PHP backend developer; <br>
-        &nbsp;&nbsp;timePeriod: from jun 2017 to sept 2017; <br>
+        &nbsp;&nbsp;position:&nbsp;&nbsp;&nbsp;PHP backend developer; <br>
+        &nbsp;&nbsp;timePeriod: from jun 2017 to sept 2017. <br>
         <br>
-        - BSMGroup:
-        &nbsp;&nbsp;position: Node.js backend developer;<br>
+        - BSMGroup:<br>
+        &nbsp;&nbsp;position:&nbsp;&nbsp;&nbsp;Node.js backend developer;<br>
         &nbsp;&nbsp;timePeriod: from jan 2018 to this day.<br>
         <br><br>
-        Solo/pet projects: <br>
-        - BIT transpiler: <br>
-        &nbsp;&nbsp;description: JS app that can translate single string statement into BIT print statement, <br>
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ <br>
+        &nbsp;&nbsp;Solo/pet projects:<br>
+        <br>
+        - <a href='https://github.com/sylenien/BIT-transcripter'>BIT transpiler:</a><br>
+        &nbsp;&nbsp;description: JS app that can translate single string statement <br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        beautify BIT code and also translate BIT print functions into valid strings.`
+        into BIT print statement, beautify BIT code and <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        also translate BIT print functions into valid<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        strings.
+        <br><br>
+        - <a href='https://github.com/sylenien/node-simple-api'>Simple API example:</a><br>
+        &nbsp;&nbsp;description: simple API built with node.js and express.
+        <br><br>
+        - <a href='https://github.com/sylenien/web-shop-php'>PHP online shop:</a> <br>
+        &nbsp;&nbsp;description: Complete and ready-to-go online shop built on php<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        and mysql.`
     },
     'contacts': {
         'text': `$ <b>contacts</b> <br>
@@ -61,23 +79,28 @@ const commands = {
         'text': `$ <b>funfact</b> 
         <br>> Did you know that you can destroy your Linux PC simply by typing 'sudo mv ~ /dev/null' in console? Try it out!`
     },
-    'n.i.c.e.s.i.t.e': {
-        'text': `
-        ...N.I.C.E.S.I.T.E...<br>
-        .........._..........<br>
-        ........./\\).._......<br>
-        ...._.../ /..(/\\.....<br>
-        .../\\).( Y)...\\ \\....<br>
-        ../ /....""...(Y ),,,<br>
-        .( Y)._........"".... <br>
-        .."".(/\\......_......<br>
-        ......\\ \\..../\\).....<br>
-        ......(Y )../ /......<br>
-        .......""..( Y)...... <br>
-        ............""....... <br>
-        .......L.I.K.E.......<br>
-        ..........&..........<br>
-        ..S.U.B.S.C.R.I.B.E..
+    'doge': {
+        'text': `<p style='color:#333333'>
+                ........▄..............▄<br>
+                ........▌▒█...........▄▀▒▌<br>
+                ....... ▌▒▒█........▄▀▒▒▒▐<br>
+                .......▐▄▀▒▒▀▀▀▀▄▄▄▀▒▒▒▒▒▐<br>
+                .....▄▄▀▒░▒▒▒▒▒▒▒▒▒█▒▒▄█▒▐<br>
+                ...▄▀▒▒▒░░░▒▒▒░░░▒▒▒▀██▀▒▌<br>
+                ..▐▒▒▒▄▄▒▒▒▒░░░▒▒▒▒▒▒▒▀▄▒▒▌<br>
+                ..▌░░▌█▀▒▒▒▒▒▄▀█▄▒▒▒▒▒▒▒█▒▐<br>
+                .▐░░░▒▒▒▒▒▒▒▒▌██▀▒▒░░░▒▒▒▀▄▌<br>
+                .▌░▒▄██▄▒▒▒▒▒▒▒▒▒░░░░░░▒▒▒▒▌<br>
+                ▌▒▀▐▄█▄█▌▄░▀▒▒░░░░░░░░░░▒▒▒▐<br>
+                ▐▒▒▐▀▐▀▒░▄▄▒▄▒▒▒▒▒▒░▒░▒░▒▒▒▒▌<br>
+                ▐▒▒▒▀▀▄▄▒▒▒▄▒▒▒▒▒▒▒▒░▒░▒░▒▒▐<br>
+                .▌▒▒▒▒▒▒▀▀▀▒▒▒▒▒▒░▒░▒░▒░▒▒▒▌<br>
+                .▐▒▒▒▒▒▒▒▒▒▒▒▒▒▒░▒░▒░▒▒▄▒▒▐<br>
+                ..▀▄▒▒▒▒▒▒▒▒▒▒▒░▒░▒░▒▄▒▒▒▒▌<br>
+                ....▀▄▒▒▒▒▒▒▒▒▒▒▄▄▄▀▒▒▒▒▄▀<br>
+                ......▀▄▄▄▄▄▄▀▀▀▒▒▒▒▒▄▄▀<br>
+                ........▒▒▒▒▒▒▒▒▒▒▀▀<br>
+                </p>
         `
     }
 } 
