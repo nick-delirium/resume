@@ -13,7 +13,7 @@ const commands = {
         'text': `$ <b>about</b> <br>
         >&nbsp;Hello!<br>
         <br>
-        &nbsp;My name is Nikita and I'm a backend developer. <br>
+        &nbsp;My name is Nikita and I'm a fullstack developer. <br>
         &nbsp;This simple CLI-like resume will guide you through projects I've made<br>
         &nbsp;and will tell you a bit about my experience. <br>
         <br>
@@ -21,17 +21,17 @@ const commands = {
         &nbsp;- Javascript+Flow <br>
         &nbsp;- Node.js         <br>
         &nbsp;- Vue             <br>
+        &nbsp;- React           <br>
         &nbsp;- Express         <br>
         &nbsp;- HTML/CSS/LESS   <br>
         &nbsp;- Koa2            <br>
         &nbsp;- jQuery          <br>
         &nbsp;- Python          <br>
-        &nbsp;- PHP(LAMP)       <br>
         &nbsp;- Watching funny cat videos in the office <br>
         <br>
         &nbsp;You can find list of all available commands by typing "help" in console. <br>
-        &nbsp;This thing is written without any JS libs with just pure javascript<br>
-        &nbsp;by <a href='https://github.com/sylenien'>@sylenien</a>, 2018.`
+        &nbsp;btw this thing is written without any JS libs with just pure(and weird style-) javascript<br>
+        &nbsp;by <a href='https://github.com/sylenien'>me</a>, 2018.`
     },
     'projects': {
         'text': `$ <b>projects</b> <br>
@@ -44,12 +44,20 @@ const commands = {
         &nbsp;&nbsp;timePeriod: from jun 2017 to sept 2017. <br>
         <br>
         - BSMGroup:<br>
-        &nbsp;&nbsp;position:&nbsp;&nbsp;&nbsp;Node.js backend developer;<br>
+        &nbsp;&nbsp;position:&nbsp;&nbsp;&nbsp;Vue/Node.js fullstack developer;<br>
         &nbsp;&nbsp;timePeriod: from jan 2018 to this day.<br>
         <br><br>
         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ <br>
         &nbsp;&nbsp;Solo/pet projects:<br>
         <br>
+        - <a href='https://github.com/sylenien/Atmosphere'>Athospere</a><br>
+        &nbsp;&nbsp;description: Hackuniversity awards winner project; Vue/node app <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        that shows you enviroment status for  St.Petersburg's <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        areas by parsing eco  data and visualising it with .here library. <br><br>
+
+        
         - <a href='https://github.com/sylenien/BIT-transcripter'>BIT transpiler:</a><br>
         &nbsp;&nbsp;description: JS app that can translate single string statement <br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -80,7 +88,7 @@ const commands = {
         <br>> Did you know that you can destroy your Linux PC simply by typing 'sudo mv ~ /dev/null' in console? Try it out!`
     },
     'doge': {
-        'text': `<p style='color:#333333'>
+        'text': `<p style='color:#433333'>
                 ........▄..............▄<br>
                 ........▌▒█...........▄▀▒▌<br>
                 ....... ▌▒▒█........▄▀▒▒▒▐<br>
